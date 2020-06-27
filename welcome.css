@@ -1,0 +1,19 @@
+@keyframes changecolor{
+    0%{ background-color: red;}
+    15%{ background-color: orange; top:10px; left:10px;}
+    30%{ background-color: yellow; top:20px; left:20px;}
+    45%{ background-color: green; top:30px; left:30px;}
+    70%{ background-color: blue; top:40px; left:40px;}
+    100%{ background-color: purple; top:50px; left:50px;}
+  }
+  .box-animation{
+      position:relative;
+      width:200px;
+      animation-name:changecolor;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+  }
+  h2{
+      text-align:center;
+      font-size: xlarge;
+  }
